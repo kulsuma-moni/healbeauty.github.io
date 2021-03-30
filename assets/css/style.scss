@@ -139,6 +139,18 @@ outline:0;
     
     }
 }
+.see_more{
+    a{
+        color: $text_color;
+        text-decoration: none;
+        cursor: pointer;
+        font-size: 14px;
+        line-height: 1.4;
+        &:hover{
+            color: $basic_color_2;
+        }
+    }
+}
 .top_bar_area{
     background-color: $basic_color_3;
     padding: 10px 0;

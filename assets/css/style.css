@@ -140,6 +140,18 @@ button:focus {
   margin: 0 auto;
 }
 
+.see_more a {
+  color: #161616;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.see_more a:hover {
+  color: #2B6CB0;
+}
+
 .top_bar_area {
   background-color: #91c543;
   padding: 10px 0;
