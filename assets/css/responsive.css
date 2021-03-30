@@ -1,0 +1,140 @@
+/*
+	@File:HEALTHBEAUTY
+
+	* This file contains the styling for the actual template, this
+	is the file you need to edit to change the look of the
+	template.
+
+	This files contents are outlined below>>>>>
+
+	*******************************************
+	*******************************************
+
+	==== INDEX PAGE CSS
+
+
+*/
+@media (min-width: 320px) and (max-width: 575px) {
+  .top_bar_area .top_right {
+    text-align: left;
+  }
+  .slider_area .slider_txt {
+    width: 300px !important;
+    left: 0%;
+    padding: 40px 30px;
+  }
+  .slider_area .slider_txt h2 {
+    font-size: 27px;
+  }
+  .section_titel h2 {
+    font-size: 34px;
+  }
+  .section_titel p {
+    font-size: 14px;
+  }
+  .service_area .service_box {
+    margin-bottom: 30px;
+  }
+  .service_area .service_box::before {
+    display: none;
+  }
+  .service_area .service_box.border_no {
+    margin-bottom: 0;
+  }
+  .fitness_blog_area .fitness_ctn {
+    margin-bottom: 30px;
+  }
+  .footer_area .footer_ctn .footer_titel h4 {
+    margin-bottom: 20px;
+  }
+  .footer_area .footer_ctn {
+    margin-bottom: 30px;
+  }
+  .footer_area .footer_ctn ul li {
+    margin-bottom: 10px;
+  }
+  .top_bar_right.mbl_no {
+    display: none;
+  }
+  .header_area .top_mb_bar_right {
+    display: block;
+    position: absolute;
+    top: 12%;
+    right: 22%;
+  }
+  .menu-shrink {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .top_bar_area .top_bar_ctn li a {
+    font-size: 13px;
+  }
+  .slider_area .slider_txt {
+    width: 500px !important;
+    left: 6%;
+  }
+  .section_titel p {
+    font-size: 13px;
+    width: 100%;
+  }
+  .service_area .service_box .service_ctn p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .service_area .service_box {
+    margin-bottom: 30px;
+  }
+  .service_area .border_no::before {
+    display: block;
+  }
+  .fitness_blog_area .fitness_ctn {
+    width: 370px;
+    margin: 0 auto 30px;
+  }
+  .footer_area .footer_ctn {
+    margin-bottom: 30px;
+  }
+  .footer_area .footer_ctn .footer_titel h4 {
+    margin-bottom: 30px;
+  }
+  .top_bar_right.mbl_no {
+    display: none;
+  }
+  .header_area .top_mb_bar_right {
+    display: block;
+    position: absolute;
+    top: 10%;
+    right: 17%;
+  }
+  .menu-shrink {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .service_area .service_box {
+    margin-bottom: 30px;
+  }
+  .service_area .border_no::before {
+    display: block;
+  }
+  .footer_area .footer_ctn button {
+    font-size: 14px;
+    padding: 8px 13px;
+  }
+  .top_bar_right.mbl_no {
+    display: none;
+  }
+  .header_area .top_mb_bar_right {
+    display: block;
+    position: absolute;
+    top: 10%;
+    right: 13%;
+  }
+  .menu-shrink {
+    display: none;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

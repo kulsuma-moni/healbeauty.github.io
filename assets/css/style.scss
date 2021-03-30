@@ -157,6 +157,9 @@ outline:0;
     .top_bar_ctn{
         li{
             margin-right: 15px;
+            &:last-child{
+                margin-right: 0;
+            }
             a{
                 font-size: 14px;
                 line-height: 1.4;
@@ -175,6 +178,9 @@ outline:0;
                 }
             }
         }
+    }
+    .top_right{
+        text-align: right;
     }
 }
 .header_area{
@@ -225,7 +231,8 @@ outline:0;
               -moz-transition: .6s;
               -ms-transition: .6s;
               -o-transition: .6s;
-              .log_btn{
+              .search_btn{
+                margin-right: 20px;
                 i{
                   font-size: 18px;
                   color: #91c543;
@@ -261,7 +268,9 @@ outline:0;
       
         }
       }
-
+    .top_mb_bar_right{
+        display: none;
+    }
 }
 .menu-shrink {
     position: fixed !important;
