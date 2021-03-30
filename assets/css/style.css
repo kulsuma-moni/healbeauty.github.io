@@ -339,6 +339,7 @@ button:focus {
   -moz-border-radius: 6px;
   -ms-border-radius: 6px;
   -o-border-radius: 6px;
+  margin-bottom: 40px;
 }
 
 .product_area .product_ctn .product_img,
