@@ -11,8 +11,6 @@
 	*******************************************
 
 	==== INDEX PAGE CSS
-
-
 */
 * {
   margin: 0;
@@ -189,6 +187,7 @@ button:focus {
 }
 
 .header_area {
+  position: relative;
   background: #ffffff;
 }
 

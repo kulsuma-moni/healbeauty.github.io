@@ -11,8 +11,6 @@
 	*******************************************
 
 	==== INDEX PAGE CSS
-
-
 */
 // Default CSS Start
 // font-family: 'Poppins', sans-serif;
@@ -44,7 +42,6 @@ body{
     width: 100%;
     height: 100%;
     font-family:'Poppins', sans-serif;
-    // background: #F5F5F5;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -184,12 +181,8 @@ outline:0;
     }
 }
 .header_area{
-    // position: absolute;
-    // width: 100%;
-    // z-index: 9;
+    position: relative;
     background: $white;
-    // top: 0;
-    // left: 0;
     .navbar{
         padding: 0;
     }
@@ -350,36 +343,20 @@ outline:0;
     margin-bottom: 40px;
     .product_img{
         position: relative;
-        // transition: all 0.4s ease-out 0s;
-        // -webkit-transition: all 0.4s ease-out 0s;
-        // -moz-transition: all 0.4s ease-out 0s;
-        // -ms-transition: all 0.4s ease-out 0s;
-        // -o-transition: all 0.4s ease-out 0s;
         overflow: hidden;
         .hover_ctn{
             display: none;
             position: absolute;
             top: 50%;
             left: 30%;
-            // transition: all 0.4s ease-out 0s;
-            // -webkit-transition: all 0.4s ease-out 0s;
-            // -moz-transition: all 0.4s ease-out 0s;
-            // -ms-transition: all 0.4s ease-out 0s;
-            // -o-transition: all 0.4s ease-out 0s;
             ul{
                 li{
-                    //visibility: hidden;
                     opacity: 0;
                     transform: scale3d(0,0,0);
                     -webkit-transform: scale3d(0,0,0);
                     -moz-transform: scale3d(0,0,0);
                     -ms-transform: scale3d(0,0,0);
                     -o-transform: scale3d(0,0,0);
-                    // transition: all 0.4s ease-out 0s;
-                    // -webkit-transition: all 0.4s ease-out 0s;
-                    // -moz-transition: all 0.4s ease-out 0s;
-                    // -ms-transition: all 0.4s ease-out 0s;
-                    // -o-transition: all 0.4s ease-out 0s;
                     a{
                         text-decoration: none;
                         i{
@@ -392,11 +369,6 @@ outline:0;
                             -ms-border-radius: 50%;
                             -o-border-radius: 50%;
                             padding: 8px;
-                            // transition: all 0.4s ease-out 0s;
-                            // -webkit-transition: all 0.4s ease-out 0s;
-                            // -moz-transition: all 0.4s ease-out 0s;
-                            // -ms-transition: all 0.4s ease-out 0s;
-                            // -o-transition: all 0.4s ease-out 0s;
                             &:hover{
                                 background: $basic_color_2;
                                 color: $white;

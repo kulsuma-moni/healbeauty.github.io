@@ -31,6 +31,7 @@
   }
   .section_titel p {
     font-size: 14px;
+    width: 100%;
   }
   .service_area .service_box {
     margin-bottom: 30px;
@@ -59,7 +60,7 @@
   .header_area .top_mb_bar_right {
     display: block;
     position: absolute;
-    top: 12%;
+    top: 35%;
     right: 22%;
   }
   .menu-shrink {
@@ -105,7 +106,7 @@
   .header_area .top_mb_bar_right {
     display: block;
     position: absolute;
-    top: 10%;
+    top: 35%;
     right: 17%;
   }
   .menu-shrink {
@@ -130,11 +131,20 @@
   .header_area .top_mb_bar_right {
     display: block;
     position: absolute;
-    top: 10%;
+    top: 35%;
     right: 13%;
   }
   .menu-shrink {
     display: none;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .header_area .top_mid_menu ul li {
+    margin: 0 15px;
+  }
+  .header_area .top_mid_menu ul li a {
+    font-size: 14px;
   }
 }
 /*# sourceMappingURL=responsive.css.map */
