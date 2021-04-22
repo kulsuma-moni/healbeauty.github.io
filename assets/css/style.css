@@ -469,8 +469,8 @@ button:focus {
   text-align: center;
 }
 
-.product_area .product_ctn .product_titel .buy_btn button,
-.product_area_2 .product_ctn .product_titel .buy_btn button {
+.product_area .product_ctn .product_titel .buy_btn a.btn,
+.product_area_2 .product_ctn .product_titel .buy_btn a.btn {
   border: none;
   font-size: 16px;
   color: #ffffff;
@@ -490,8 +490,8 @@ button:focus {
   -ms-transition: ease-out 0.6s;
 }
 
-.product_area .product_ctn .product_titel .buy_btn button:hover,
-.product_area_2 .product_ctn .product_titel .buy_btn button:hover {
+.product_area .product_ctn .product_titel .buy_btn a.btn:hover,
+.product_area_2 .product_ctn .product_titel .buy_btn a.btn:hover {
   -webkit-box-shadow: inset 400px 0 0 0 #91c543;
           box-shadow: inset 400px 0 0 0 #91c543;
   color: #ffffff;
