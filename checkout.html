@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/image/titel_icon/logo.ico">
+    <title>Health Beauty</title>
+    <!--=== ALL CSS Here ===-->
+    <!--=== Fontawesome icon ===-->
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+       <!--=== HOME SLIDER css===-->
+  <link rel="stylesheet" href="assets/css/plugin/jquery.carousel-line-arrow.css">
+    <!--=== Bootstrap ===-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!--=== wow animation ===-->
+    <link rel="stylesheet" href="assets//css/plugin/animate.css">
+    <!--=== Custom CSS ===-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+<!--======== Top Bar AREA START ===========-->
+<section class="top_bar_area">
+	<div class="container">
+		<div class="row">
+			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+				<ul class="top_bar_ctn">
+					<li><a href="#"><i class="far fa-envelope"></i> <span>example@gmail.com</span></a></li>
+					<li><a href="#"><i class="fas fa-location-arrow"></i> <span>BSC More, Nagessory, Kurigram.</span></a></li>
+				</ul>
+			</div>
+			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+				<ul class="top_bar_ctn top_right">
+					<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+					<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+					<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+					<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>	
+<!--======== Top Bar AREA END ===========-->
+<!--======== HEADER AREA START ===========-->
+<header class="header_area">
+	<div class="container">
+		<nav class="navbar navbar-expand-lg">
+			<a class="navbar-brand" href="index.html"><img src="assets/image/logo/logo_2.png" alt="logo"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+				<i class="fas fa-bars"></i>
+			</button>			  
+			<div class="collapse navbar-collapse top_mid_menu" id="navbarTogglerDemo02">
+			  <ul class="navbar-nav menu_bar mx-auto mt-3 mb-3 mt-lg-0">
+				<li class="nav-item active">
+				  <a class="nav-link" href="all_producct.html">skin care products <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="all_producct.html">makup products</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="blog.html">Fitness solution</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="all_producct.html">New arrivals</a>
+				</li>
+			  </ul>
+			  <div class="top_bar_right mbl_no">
+				<ul>
+					<li class="search_btn"><i class="fas fa-search input_show"></i>				<div class="search_field">
+						<input type="text" placeholder="Search">
+						<i class="fas fa-search input_hide"></i>
+					</div>		
+					</li>
+				  <li><a href="registration.html" class="log_btn">log in</a></li>
+				</ul>
+			  </div>
+			</div>
+		</nav>
+		<!-- FOR MOBILE VIEW TOP RIGHT BUTTON AREA START -->
+		<div class="top_mb_bar_right top_bar_right">
+		<ul>
+			<li class="search_btn"><i class="fas fa-search input_show"></i>				<div class="search_field">
+				<input type="text" placeholder="Search">
+				<i class="fas fa-search input_hide"></i>
+			</div>		
+			</li>
+			<li><a href="registration.html" class="log_btn">log in</a></li>
+		</ul>
+		</div>
+		<!-- FOR MOBILE VIEW TOP RIGHT BUTTON AREA END -->
+	</div>
+</header>
+<!--======== HEADER AREA END ===========-->
+	<!-- CHECKOUT AREA START -->
+    <section class="checkout_page section_padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 px-3 px-sm-1">
+                    <div class="check_out_area">
+                        <div class="checkout_tab_bar">
+                            <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                                <li class="nav-item">
+                                  <a class="nav-link active" id="pills_shipping_tab" data-toggle="pill" href="#pills_shipping" role="tab" aria-controls="pills_shipping" aria-selected="true">shipping address</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" id="pills_billing_tab" data-toggle="pill" href="#pills_billing" role="tab" aria-controls="pills_billing" aria-selected="false">billing address</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" id="pills_methods_tab" data-toggle="pill" href="#pills_methods" role="tab" aria-controls="pills_methods" aria-selected="false">shipping methods</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="order_details_tab" data-toggle="pill" href="#order_details" role="tab" aria-controls="order_details" aria-selected="false">order details</a>
+                                </li>
+                            </ul>
+                        </div>
+                          <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills_shipping" role="tabpanel" aria-labelledby="pills_shipping_tab">
+                                <div class="row">
+                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                        <div class="form-group">
+                                            <input type="text" placeholder="first name" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                        <div class="form-group">
+                                            <input type="text" placeholder="last name" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                        <div class="form-group">
+                                            <select class="form-control" name="catagory">
+                                                <option value="">country</option>
+                                                <option value="bangladesh">bangladesh</option>
+                                                <option value="belgium">belgium</option>
+                                                <option value="england">england</option>
+                                                <option value="china">china</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                        <div class="form-group">
+                                            <input type="text" placeholder="city" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                        <div class="form-group">
+                                            <input type="text" placeholder="email" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                        <div class="form-group">
+                                            <input type="text" placeholder="address" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                        <div class="form-group">
+                                            <input type="text" placeholder="phone" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                        <div class="form-group">
+                                            <input type="text" placeholder="postal code" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                        <div class="checkout_bottom_button">
+                                            <ul>
+                                                <li><a href="#" class="btn continu_btn">continue</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills_billing" role="tabpanel" aria-labelledby="pills_billing_tab">
+                                <div class="row">
+                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                        <div class="form-group">
+                                            <input type="text" placeholder="first name" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                        <div class="form-group">
+                                            <input type="text" placeholder="last name" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                        <div class="form-group">
+                                            <select class="form-control" name="catagory">
+                                                <option value="">country</option>
+                                                <option value="bangladesh">bangladesh</option>
+                                                <option value="belgium">belgium</option>
+                                                <option value="england">england</option>
+                                                <option value="china">china</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                        <div class="form-group">
+                                            <input type="text" placeholder="city" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                        <div class="form-group">
+                                            <input type="text" placeholder="email" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                        <div class="form-group">
+                                            <input type="text" placeholder="address" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                        <div class="form-group">
+                                            <input type="text" placeholder="phone" class="form-control">
+                                            <div class="same_address">
+                                                <input type="checkbox" id="add_ress" name="sameaddress" value="adress">
+                                                <label>Same shipping and billing address.</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                        <div class="form-group">
+                                            <input type="text" placeholder="postal code" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                        <div class="checkout_bottom_button">
+                                            <ul>
+                                                <li><a href="#" class="btn back_btn">back</a></li>
+                                                <li><a href="#" class="btn continu_btn">continue</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills_methods" role="tabpanel" aria-labelledby="pills_methods_tab">
+                                <div class="row">
+                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+                                        <div class="shipping_methods_ctn">
+                                            <div class="methods_titel">
+                                                <h3>flat rate</h3>
+                                            </div>
+                                            <div class="form">
+                                                <input type="checkbox" id="flat_rate" name="flatrate" value="flat rate">
+                                                <label>flat rate --৳160</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+                                        <div class="shipping_methods_ctn">
+                                            <div class="methods_titel">
+                                                <h3>UPS shipping</h3>
+                                            </div>
+                                            <div class="form">
+                                                <div class="hours_24">
+                                                    <input type="checkbox" id="ups_rate_24" name="upsrate24" value="ups rate 24">
+                                                    <label>24 hours --৳180</label>
+                                                </div>
+                                                <div class="hours_48">
+                                                    <input type="checkbox" id="ups_rate_48" name="upsrate48" value="ups rate 48">
+                                                    <label>48 hours --৳280</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                        <div class="checkout_bottom_button">
+                                            <ul>
+                                                <li><a href="#" class="btn back_btn">back</a></li>
+                                                <li><a href="#" class="btn continu_btn">continue</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="order_details" role="tabpanel" aria-labelledby="order_details_tab">
+                                <div class="row">
+                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                        <div class="confirm_order">
+                                            <div class="table-responsive">
+                                                <table class="table">
+                                                    <thead class="table_heading">
+                                                        <tr>
+                                                            <th class="text-center">item(s)</th>
+                                                            <th class="text-center">price</th>
+                                                            <th class="text-center">qty</th>
+                                                            <th class="text-center">subtotal</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td></td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                        <div class="order_notes_area">
+                                            <div class="notes_titel">
+                                                <h3>Order Notes & Summary</h3>
+                                                <p>Please write notes of your order</p>
+                                            </div>
+                                            <div class="order_notes_ctn">
+                                                <textarea name="order_notes_summry" id="notes_summary"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                        <div class="payment_methods_area">
+                                            <div class="payment_titel">
+                                                <h3>Payment Methods</h3>
+                                                <p>Please select a prefered payment method to use on this order</p>
+                                            </div>
+                                            <div class="payment_methods_ctn">
+                                                <ul>
+                                                    <li><a href="#"><img src="assets/image/payment/payment_1.png" alt="card"><br><span>Credit/Debit card</span></a></li>
+                                                    <li><a href="#"><img src="assets/image/payment/payment_2.png" alt="instalment"><br><span>Installment</span></a></li>
+                                                    <li><a href="#"><img src="assets/image/payment/payment_3.png" alt="bKash"><br><span>Save bKash Account</span></a></li>
+                                                    <li><a href="#"><img src="assets/image/payment/payment_4.png" alt="cash"><br><span>Cash On Delivery</span></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                        <div class="checkout_bottom_button">
+                                            <ul>
+                                                <li><a href="#" class="btn back_btn">back</a></li>
+                                                <li><a href="#" class="btn continu_btn">continue</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                    <div class="confirm_order_summary">
+                        <div class="confirm_order_titel">
+                            <h5>order summary</h5>
+                        </div>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <td>Subtotal</td>
+                                        <td>৳0.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Coupon Code</td>
+                                        <td>৳0.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Tax</td>
+                                        <td>৳0.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>UPS Shipping Shipping</td>
+                                        <td>৳160.00</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Total</th>
+                                        <th>৳160.00</th>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- CHECKOUT AREA END -->
+	<!--======== FOOTER AREA START ===========-->
+	<section class="footer_area section_padding">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12">
+					<div class="footer_ctn">
+						<div class="footer_logo">
+							<a href="#"><img src="assets/image/logo/logo_2.png" alt="logo"></a>
+						</div>
+						<p>BSC More, Nagessory, Kurigram.</p>
+						<p><a href="#">+880 998 335 265</a></p>
+						<p><a href="#">example@gmail.com</a></p>
+					</div>
+				</div>
+				<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12">
+					<div class="footer_ctn">
+						<div class="footer_titel">
+							<h4>Help link</h4>
+						</div>
+						<ul>
+							<li><a href="#">Track my order</a></li>
+							<li><a href="#">Community</a></li>
+							<li><a href="">Log in</a></li>
+							<li><a href="">Praivacy Policy</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12">
+					<div class="footer_ctn">
+						<div class="footer_titel">
+							<h4>Our company</h4>
+						</div>
+						<ul>
+							<li><a href="#">About us</a></li>
+							<li><a href="#">Contact</a></li>
+							<li><a href="">Help line</a></li>
+							<li><a href="">Terms & condition</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12">
+					<div class="footer_ctn">
+						<div class="footer_titel">
+							<h4>Newsletter area</h4>
+						</div>
+						<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta, eos autem. Corporis cupiditate error explicabo eum facilis!</p>
+						<input type="text" placeholder="Enter your email.." class="form-control">
+						<button>Subscrib now</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--======== FOOTER AREA END ===========-->
+	<!--===  Copyright Area start ===-->
+	<section>
+		<div class="copyright_area">
+			<div class="container">
+				<div class="copyright text-center">
+					<p>&copy; Copyright Reserved. <a href="#"> 2021 HealthBeauty.</a></p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--===  Copyright Area End ===-->
+	<!-- Scroll to Top button selector -->
+	<a class="to-top"><i class="fas fa-level-up-alt"></i></a>
+    <!--=== ALL JS Here ===-->
+    <!--=== jQuery 3.6.0 ===-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<!--=== Bootstrap js ===-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+   <!--=== HOME SLIDER Js===-->
+  <script src="assets/js/plugin/jquery.carousel-line-arrow.js"></script>
+    <!--=== WOW Animation Js===-->
+    <script src="assets/js/plugin/wow.min.js"></script>
+    <!--=== to top  js===-->
+    <script src="assets/js/plugin/jquery.toTop.min.js"></script>
+      <!--=== smooth scroll js===-->
+      <script src="assets/js/plugin/smoothscroll.js"></script>
+
+
+    <!--=== Custom JS ===-->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

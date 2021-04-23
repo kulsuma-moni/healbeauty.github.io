@@ -164,4 +164,14 @@
     margin-right: 0px;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .social-panel-container.visible {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  .floating-btn {
+    right: 10px;
+  }
+}
 /*# sourceMappingURL=responsive.css.map */

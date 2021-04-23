@@ -14,9 +14,12 @@
           });
 
       // SEARCH BAR
-      $(".search_btn i").click(function(){
-          $(".header_area").toggleClass("wide");
+      $(".input_show").click(function(){
+          $(".search_field").show();
       });
+      $(".input_hide").click(function(){
+        $(".search_field").hide();
+    });
 
     $('.hero_slider').carouselLineArrow({
         lineDur: 5000,
